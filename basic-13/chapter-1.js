@@ -17,4 +17,20 @@ function printIntsAndSum() {
     }
     console.log(result);
 }
-printIntsAndSum();
+// printIntsAndSum();
+
+// print max of Array
+
+function printMaxOfArray(arr) {
+    let maxValue = arr[0];
+    for (let num of arr) {
+        if (num > maxValue) {
+            maxValue = num;
+        }
+    }
+    return maxValue;
+}
+
+console.log(printMaxOfArray([2, 4, 3, 6, 1]));
+
+// Return Odds Arrays 1-255
